@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+
+/* Helpers */
+.margin-top-10 {padding-top:10px;}
+.margin-bot-10 {padding-bottom:10px;}
+
+/* Section - Title */
+#parallax-main .title {background: black; padding: 60px; margin:0 auto; text-align:center;}
+#parallax-main .title h1 {font-size:35px; letter-spacing:8px;}
+
+/* Section - Block */
+#parallax-main .block {background: black; padding: 80px; width: 820px; margin:0 auto; text-align:justify;}
+#parallax-main .block-grey {background: #f2f2f2;padding: 80px;}
+#parallax-main .section-overlay-mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; opacity: 0.70;}
+
+/* Section - Parallax */
+#parallax-main .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://wallpaperaccess.com/full/2680447.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+
+#parallax-main .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://i.pinimg.com/originals/84/e2/fa/84e2faf694afce9438a91604b9057b14.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  #parallax-main .block {padding: 50px; width:620px;}
+}
+@media screen and (max-width: 767px) {
+  #parallax-main .block {padding: 30px; width:420px;}
+  #parallax-main .h2 {font-size:30px;}
+  #parallax-main .block {padding: 30px;}
+  #parallax-main .parallax-one, #parallax-main .parallax-two, #parallax-main .parallax-three {padding-top:100px; padding-bottom:100px;}
+}
+@media screen and (max-width: 479px) {
+  #parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
+}
+
+/* Typography */
+#parallax-main h1 {font-family:'Oswald', sans-serif; font-size:24px; font-weight:400; text-transform: uppercase; color:white; padding:0; margin:0;}
+
+#parallax-main h2 {font-family:'Oswald', sans-serif; font-size:70px; letter-spacing:10px; text-align:center; color:white; font-weight:400; text-transform:uppercase; z-index:10; opacity:.9;}
+
+#parallax-main h3 {font-family:'Oswald', sans-serif; font-size:14px; line-height:0; font-weight:400; letter-spacing:8px; text-transform: uppercase; color:white;}
+
+#parallax-main p {font-family:'Source Sans Pro', sans-serif; font-weight:400; font-size:14px; line-height:24px; color:white}
+
+/*.first-character {font-weight:400; float: left; font-size: 84px; line-height: 64px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: 'Source Sans Pro', sans-serif;}/*
